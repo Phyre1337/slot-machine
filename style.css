@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+.wallet {
+    border: 1px solid plum;
+    padding: 5px;
+    display: inline-block;
+    background-color: wheat;
+}
+
+body {
+    background-color: grey;
+}
+
+.slotIcons {
+    height: 5cm;
+    width: 5cm;
+}
+
+.center {
+    text-align: center;
+}
+
+.walletImg {
+    height: 3cm;
+    width: 3cm;
+}
+
+.spin {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.spin:hover {
+    background-color: #3e8e41
+}
+
+.spin:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
